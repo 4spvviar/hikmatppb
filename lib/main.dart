@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 void main() {
   runApp(const MainApp());
 }
@@ -9,7 +10,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aplikasi Hkmt',
+      title: 'Aplikasi Iuran Warga',
       theme: ThemeData(
 
         colorScheme: ColorScheme.fromSeed(
