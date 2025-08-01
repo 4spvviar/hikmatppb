@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hikmatppb/screens/login.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,16 +11,15 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aplikasi Iuran Warga',
+      title: 'Aplikasi Iuran', 
       theme: ThemeData(
-
+        
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.deepPurple,
-        ),
+        ), 
       ),
-      debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      debugShowCheckedModeBanner: false, 
+      home: LoginPage(), 
     );
   }
 }
-
